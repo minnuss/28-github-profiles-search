@@ -30,7 +30,7 @@ async function getUSer(username) {
 // Getting repos from github
 async function getRepos(username) {
     try {
-        const { data } = await axios(apiURL + username + '/repos')
+        const { data } = await axios(apiURL + username + '/repos?sort=created')
         console.log('repos', data);
         addReposToCard(data)
     } catch (err) {
