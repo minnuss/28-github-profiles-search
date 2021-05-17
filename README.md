@@ -2,7 +2,7 @@
 
 TITLE - Github Profiles Search
 
-About - Github profiles searcher
+About - Github profiles searcher, all the input needs is a username of github account.
 
 TECHNOLOGIES USED:
 
